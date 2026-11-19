@@ -1,0 +1,7 @@
+﻿Suspicious_Link_Exposure,"2-3 times" "4-5 times" "More than 5 times" "Never" "Once"
+"Never",2,3,0,120,7,132
+"Often",67,39,17,51,79,253
+"Rarely",56,4,5,271,143,479
+"Sometimes",128,26,8,187,197,546
+"Very often",29,24,15,12,19,99
+"Total",282,96,45,641,445,1509

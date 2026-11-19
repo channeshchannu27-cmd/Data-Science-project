@@ -1,0 +1,71 @@
+﻿================================================================================
+STATISTICAL ANALYSIS & CHI-SQUARE TESTS OF INDEPENDENCE REPORT
+Cyber Fraud Risk Prediction & Cybersecurity Awareness Analysis
+Total Sample Size: N = 1509 respondents | Significance Level (Alpha) = 0.05
+================================================================================
+
+--------------------------------------------------------------------------------
+Test #1: Age Group vs Cyber Fraud Experience
+Variables: Age_Group  vs  Social_Media_Scam_Outcome
+--------------------------------------------------------------------------------
+Null Hypothesis (H0):        Age group and cyber fraud experience are independent (age does not influence scam encounter outcomes).
+Alternative Hypothesis (H1): Age group and cyber fraud experience are dependent.
+Chi-Square (X^2) Statistic:  10.0645
+Degrees of Freedom (df):     20
+p-value:                     0.967
+Statistically Significant:   No (alpha = 0.05)
+Decision:                    Fail to Reject H0 (Not Significant)
+Crosstab Table File:         CyberFraudPrediction\outputs\crosstab_01_age_group_vs_social_media_scam_outcome.csv
+
+--------------------------------------------------------------------------------
+Test #2: Digital Transaction Frequency vs Transaction Fraud Loss
+Variables: Digital_Transactions_Per_Week  vs  Transaction_Fraud_Loss
+--------------------------------------------------------------------------------
+Null Hypothesis (H0):        Digital transaction frequency and transaction fraud loss are independent.
+Alternative Hypothesis (H1): Digital transaction frequency and transaction fraud loss are dependent.
+Chi-Square (X^2) Statistic:  9.1632
+Degrees of Freedom (df):     18
+p-value:                     0.9558
+Statistically Significant:   No (alpha = 0.05)
+Decision:                    Fail to Reject H0 (Not Significant)
+Crosstab Table File:         CyberFraudPrediction\outputs\crosstab_02_digital_transactions_per_week_vs_transaction_fraud_loss.csv
+
+--------------------------------------------------------------------------------
+Test #3: Cybersecurity Awareness vs Security Practices
+Variables: Overall_Cybersecurity_Awareness  vs  Security_Practices
+--------------------------------------------------------------------------------
+Null Hypothesis (H0):        Cybersecurity awareness score and daily security practices are independent.
+Alternative Hypothesis (H1): Cybersecurity awareness score and daily security practices are dependent.
+Chi-Square (X^2) Statistic:  9.6729
+Degrees of Freedom (df):     16
+p-value:                     0.8831
+Statistically Significant:   No (alpha = 0.05)
+Decision:                    Fail to Reject H0 (Not Significant)
+Crosstab Table File:         CyberFraudPrediction\outputs\crosstab_03_overall_cybersecurity_awareness_vs_security_practices.csv
+
+--------------------------------------------------------------------------------
+Test #4: Suspicious Link Exposure vs Suspicious Link Clicks
+Variables: Suspicious_Link_Exposure  vs  Suspicious_Link_Clicks
+--------------------------------------------------------------------------------
+Null Hypothesis (H0):        Frequency of receiving suspicious links and frequency of clicking them are independent.
+Alternative Hypothesis (H1): Frequency of receiving suspicious links and frequency of clicking them are dependent.
+Chi-Square (X^2) Statistic:  433.5978
+Degrees of Freedom (df):     16
+p-value:                     3.2328E-082
+Statistically Significant:   Yes (alpha = 0.05)
+Decision:                    Reject H0 (Statistically Significant)
+Crosstab Table File:         CyberFraudPrediction\outputs\crosstab_04_suspicious_link_exposure_vs_suspicious_link_clicks.csv
+
+--------------------------------------------------------------------------------
+Test #5: Social Media Usage vs Fraud Exposure Frequency
+Variables: Social_Media_Hours  vs  Social_Media_Scam_Exposure
+--------------------------------------------------------------------------------
+Null Hypothesis (H0):        Daily social media screen time and frequency of scam encounters are independent.
+Alternative Hypothesis (H1): Daily social media screen time and frequency of scam encounters are dependent.
+Chi-Square (X^2) Statistic:  27.8417
+Degrees of Freedom (df):     16
+p-value:                     0.033
+Statistically Significant:   Yes (alpha = 0.05)
+Decision:                    Reject H0 (Statistically Significant)
+Crosstab Table File:         CyberFraudPrediction\outputs\crosstab_05_social_media_hours_vs_social_media_scam_exposure.csv
+

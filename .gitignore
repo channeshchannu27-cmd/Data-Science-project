@@ -1,0 +1,65 @@
+# ==============================================================================
+# Git Ignore Configuration for Cyber Fraud Risk Prediction Project
+# ==============================================================================
+
+# Byte-compiled / optimized / Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+miniconda3/
+.conda/
+.anaconda/
+
+# Jupyter Notebook Checkpoints & Cache
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# IDE, Editor & Workspace Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.code-workspace
+.spyderproject
+.spyproject
+
+# Operating System Temporary / Metadata Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Thumbs.db:encryptable
+desktop.ini
+$RECYCLE.BIN/
+
+# Streamlit Local Configuration & Secrets
+.streamlit/secrets.toml
+
+# Logs, Dumps & Temp Files
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+log/
+logs/
+
+# Optional: Archive folder for discarded / legacy drafts
+archive/
+ignored/

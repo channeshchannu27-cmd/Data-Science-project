@@ -1,0 +1,38 @@
+﻿================================================================================
+CYBER FRAUD RISK PREDICTION: MACHINE LEARNING EVALUATION REPORT
+================================================================================
+Target Variable:        Fraud_Victim (1 = Victim, 0 = Safe)
+Total Samples:          N = 1,509 respondents
+Dataset Split:          Stratified 80% Train (1,207 samples), 20% Test (302 samples)
+Random State:           42
+Feature Count:          18 pre-attack features (Zero target leakage)
+================================================================================
+
+MODEL PERFORMANCE COMPARISON (TEST SET: N = 302):
+--------------------------------------------------------------------------------
+1. Logistic Regression (with StandardScaler Pipeline):
+   - Accuracy:  47.68%
+   - Precision: 49.74%
+   - Recall:    61.15%
+   - F1-Score:  54.86%
+   - Confusion Matrix: TN=48, FP=97, FN=61, TP=96
+
+2. Decision Tree Classifier (max_depth=5, min_samples_split=10):
+   - Accuracy:  44.04%
+   - Precision: 44.92%
+   - Recall:    33.76%
+   - F1-Score:  38.55%
+   - Confusion Matrix: TN=80, FP=65, FN=104, TP=53
+
+3. Random Forest Classifier (n_estimators=100, max_depth=6):
+   - Accuracy:  50.00%
+   - Precision: 51.10%
+   - Recall:    88.54% (Highest sensitivity in detecting fraud victims)
+   - F1-Score:  64.80% (Top overall balance)
+   - Confusion Matrix: TN=12, FP=133, FN=18, TP=139
+
+KEY OBSERVATIONS & INTERPRETATION:
+- Random Forest achieved the highest Recall (88.54%) and highest F1-Score (64.80%),
+  making it the best model for minimizing False Negatives (only 18 missed fraud victims).
+- Threat_Exposure_Index and Suspicious_Link_Clicks emerged as the top predictive features.
+================================================================================

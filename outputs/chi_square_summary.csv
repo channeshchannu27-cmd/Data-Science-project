@@ -1,0 +1,6 @@
+﻿"ID","Name","Col1","Col2","Chi2","DF","PVal","Significant","Verdict"
+"1","Age Group vs Cyber Fraud Experience","Age_Group","Social_Media_Scam_Outcome","10.0645","20","0.967","No","Fail to Reject H0 (Not Significant)"
+"2","Digital Transaction Frequency vs Transaction Fraud Loss","Digital_Transactions_Per_Week","Transaction_Fraud_Loss","9.1632","18","0.9558","No","Fail to Reject H0 (Not Significant)"
+"3","Cybersecurity Awareness vs Security Practices","Overall_Cybersecurity_Awareness","Security_Practices","9.6729","16","0.8831","No","Fail to Reject H0 (Not Significant)"
+"4","Suspicious Link Exposure vs Suspicious Link Clicks","Suspicious_Link_Exposure","Suspicious_Link_Clicks","433.5978","16","3.2328E-082","Yes","Reject H0 (Statistically Significant)"
+"5","Social Media Usage vs Fraud Exposure Frequency","Social_Media_Hours","Social_Media_Scam_Exposure","27.8417","16","0.033","Yes","Reject H0 (Statistically Significant)"

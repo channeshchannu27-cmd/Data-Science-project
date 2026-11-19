@@ -1,0 +1,19 @@
+﻿{
+    "total_records":  1509,
+    "total_features":  18,
+    "target":  {
+                   "distribution":  {
+                                        "1":  784,
+                                        "0":  725
+                                    },
+                   "description":  "1 = Experienced financial fraud loss or compromised account; 0 = No harm.",
+                   "name":  "Fraud_Victim",
+                   "type":  "binary (0 or 1)"
+               },
+    "leakage_safeguards":  [
+                               "Excluded \u0027Name\u0027 (PII)",
+                               "Excluded \u0027Social_Media_Scam_Outcome\u0027 (Outcome proxy)",
+                               "Excluded \u0027Personal_Social_Media_Fraud_Loss\u0027 (Outcome component)",
+                               "Excluded \u0027Transaction_Fraud_Loss\u0027 (Outcome component)"
+                           ]
+}
